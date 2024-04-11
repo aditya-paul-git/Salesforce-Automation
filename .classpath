@@ -48,5 +48,21 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/adity/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar" sourcepath="C:/Users/adity/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.aventstack"/>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.version" value="5.1.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/extentreports-5.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/freemarker-2.3.32.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/lombok-1.18.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/reactive-streams-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adity/Downloads/Programs/extentReport/rxjava-3.1.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
