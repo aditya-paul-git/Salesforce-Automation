@@ -91,7 +91,7 @@ public class checkAccountCreation {
 		// MediaEntityBuilder.createScreenCaptureFromPath("screen.png").build()
 
 		// Enter Password
-		driver.findElement(By.id("password")).sendKeys("Qwerty#1234");
+		driver.findElement(By.id("password")).sendKeys("Qwerty#2024");
 		if (driver.findElement(By.id("password")) != null) {
 			reports.log(Status.PASS, "Password field displayed - Password entered successfully");
 		} else {
