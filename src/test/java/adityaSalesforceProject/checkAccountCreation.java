@@ -45,7 +45,7 @@ public class checkAccountCreation {
 	public void beforeTest() throws InterruptedException {
 
 		// Setup browser properties
-		System.setProperty("webdriver.chrome.driver", "/Users/adity/ChromeDriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Users//adity//Downloads//Programs//chromedriver-win64//chromedriver-win64//chromedriver.exe");
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--incognito");
 		System.out.println("Opening Chrome browser");
@@ -74,7 +74,7 @@ public class checkAccountCreation {
 
 		
 		// Enter Username
-		driver.findElement(By.id("username")).sendKeys("aditya.paul.ml@mindful-raccoon-o95wep.com");
+		driver.findElement(By.id("username")).sendKeys("development.team@salesforcetranning.dev");
 		if (driver.findElement(By.id("username")) != null) {
 			reports.log(Status.PASS, "Username field displayed - Username entered successfully");
 		} else {
@@ -91,7 +91,7 @@ public class checkAccountCreation {
 		// MediaEntityBuilder.createScreenCaptureFromPath("screen.png").build()
 
 		// Enter Password
-		driver.findElement(By.id("password")).sendKeys("Qwerty#2024");
+		driver.findElement(By.id("password")).sendKeys("May@2024");
 		if (driver.findElement(By.id("password")) != null) {
 			reports.log(Status.PASS, "Password field displayed - Password entered successfully");
 		} else {
